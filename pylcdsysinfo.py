@@ -31,8 +31,10 @@ _font_length_table = [
     0x0B, 0x0E, 0x10, 0x16, 0x10, 0x10, 0x0E, 0x01, 0x11, 0x02
 ]
 
+#TODO: Update README to incorporate this
 large_image_indexes = [x * 38 + 180 for x in range(0,8)]
 
+#TODO: Update README to incorporate this
 # Padding necessary for left-aligned text in the right-hand column.
 COL2LEFT = '|' * 9 + '___'
 
